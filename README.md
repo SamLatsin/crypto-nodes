@@ -1,5 +1,5 @@
 # crypto-nodes
-Backend API for working with the most famous cryptocurrencies: Bitcoin, Ethereum, Zcash, TRON, Monero and Dash.
+Backend HTTP-JSON API for working with the most famous cryptocurrencies: Bitcoin, Ethereum, Zcash, TRON, Monero and Dash.
 ## Overview
 Aggregator of the most famous cryptocurrencies written in [PHP](https://www.php.net) [Phalcon](https://phalcon.io/en-us), [Python](https://www.python.org) and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), persistant storage is [MySQL](https://www.mysql.com). See [API documentation](https://sam-latsin.gitbook.io/crypto-rest-api-eng/).
 ### Use cases
