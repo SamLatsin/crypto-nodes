@@ -1,7 +1,7 @@
 # crypto-nodes
 Backend API for working with the most famous cryptocurrencies: Bitcoin, Ethereum, Zcash, TRON, Monero and Dash.
 ## Overview
-Aggregator of the most famous cryptocurrencies written in [PHP](https://www.php.net) [Phalcon](https://phalcon.io/en-us), [Python](https://www.python.org) and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript). 
+Aggregator of the most famous cryptocurrencies written in [PHP](https://www.php.net) [Phalcon](https://phalcon.io/en-us), [Python](https://www.python.org) and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript). See [API documentation](https://sam-latsin.gitbook.io/crypto-rest-api-eng/).
 ### Use cases
 * Crypto P2P exchange
 * Online marketplace
@@ -71,6 +71,8 @@ python requirments:
 * statistics
 * collections
 ### Installation
+The installation process may seem quite complicated, but you only need to do it once 😁
+
 ## License
 
 Chat is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
