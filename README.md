@@ -1,7 +1,7 @@
 # crypto-nodes
 Backend API for working with the most famous cryptocurrencies: Bitcoin, Ethereum, Zcash, TRON, Monero and Dash.
 ## Overview
-Aggregator of the most famous cryptocurrencies written in [PHP](https://www.php.net) [Phalcon](https://phalcon.io/en-us), [Python](https://www.python.org) and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript). See [API documentation](https://sam-latsin.gitbook.io/crypto-rest-api-eng/).
+Aggregator of the most famous cryptocurrencies written in [PHP](https://www.php.net) [Phalcon](https://phalcon.io/en-us), [Python](https://www.python.org) and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), persistant storage is [MySQL](https://www.mysql.com). See [API documentation](https://sam-latsin.gitbook.io/crypto-rest-api-eng/).
 ### Use cases
 * Crypto P2P exchange
 * Online marketplace
@@ -42,6 +42,7 @@ Tron special feature:
 * At least 2 TB SSD
 * At least 16 GB RAM
 * [Phalcon framework](https://github.com/phalcon/cphalcon.git)
+* [MySQL](https://www.mysql.com)
 * [Bitcoind](https://github.com/bitcoin/bitcoin.git)
 * [Geth](https://github.com/ethereum/go-ethereum.git)
 * [Zcashd](https://github.com/zcash/zcash.git)
@@ -73,7 +74,43 @@ python requirments:
 ### Installation
 The installation process may seem quite complicated, but you only need to do it once 😁
 
+Install all requirments.
+
+From command line run:
+```
+git clone https://github.com/SamLatsin/crypto-nodes.git
+cd /var/www/
+mv crypto-nodes/src/ /var/www/crypto-rest-api/
+```
+Clone `hd-wallet-derive` and place it to `/var/www/crypto-rest-api/app/`:
+```
+git clone https://github.com/dan-da/hd-wallet-derive.git
+mv hd-wallet-derive /var/www/crypto-rest-api/app/hd-wallet-generator
+```
+Import `crypto-nodes/db snapshot/main.sql` to your Database.
+
+Add all lines from `crypto-nodes/configs/crontab.txt` to your crontab.
+
+After installing all nodes put corresponding configs to them from `crypto-nodes/configs/nodes configs/`. Your file structure should be like this:
+```
+/root/
+├── disk1
+│   └── xmr
+├── disk2
+│   ├── dash
+│   ├── tron
+│   └── zec
+└── disk3
+    ├── btc
+    └── eth
+```
+Edit file `/var/www/crypto-rest-api/app/app.php` and put your Database credentials.
+
+Edit file `/var/www/crypto-rest-api/app/route/load.php` and put your `API_TRON_TOKEN`, `API_ETHER_SCAN` and generate tokens for all currencies.
+
+After all steps done you can check if API works, check [API documentation](https://sam-latsin.gitbook.io/crypto-rest-api-eng/).
+
 ## License
 
-Chat is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Crypto-nodes is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
 
