@@ -1,0 +1,117 @@
+2022-01-29 13:58:45.955	    7f6c77a13340	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2022-01-29 13:58:45.955	    7f6c77a13340	INFO	global	src/daemon/main.cpp:296	Monero 'Oxygen Orion' (v0.17.0.0-319b831e6)
+2022-01-29 13:58:46.742	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:133	Exception: boost::exception_detail::clone_impl<boost::system::system_error>
+2022-01-29 13:58:46.742	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:134	Unwound call stack:
+2022-01-29 13:58:46.745	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [1]  0x113) [0x55a3e0dcf2d2]:__cxa_throw+0x113) [0x55a3e0dcf2d2]
+2022-01-29 13:58:46.745	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [2] monerod(+0xcac7b) [0x55a3e0df9c7b] 
+2022-01-29 13:58:46.745	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [3] monerod(+0xdd4d1) [0x55a3e0e0c4d1] 
+2022-01-29 13:58:46.745	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [4] monerod(+0x6e1407) [0x55a3e1410407] 
+2022-01-29 13:58:46.745	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [5] monerod(+0x12d995) [0x55a3e0e5c995] 
+2022-01-29 13:58:46.745	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [6] monerod(+0x12e038) [0x55a3e0e5d038] 
+2022-01-29 13:58:46.745	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [7] monerod(+0x1e746e) [0x55a3e0f1646e] 
+2022-01-29 13:58:46.745	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [8] monerod(+0x1e80b6) [0x55a3e0f170b6] 
+2022-01-29 13:58:46.745	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [9] monerod(+0x1e85af) [0x55a3e0f175af] 
+2022-01-29 13:58:46.745	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [10] monerod(+0x1c1505) [0x55a3e0ef0505] 
+2022-01-29 13:58:46.745	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [11] monerod(+0x114518) [0x55a3e0e43518] 
+2022-01-29 13:58:46.745	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [12] monerod(+0x10a869) [0x55a3e0e39869] 
+2022-01-29 13:58:46.745	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [13] monerod(+0xea068) [0x55a3e0e19068] 
+2022-01-29 13:58:46.745	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [14]  0xf3) [0x7f6c7a0be0b3]:_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f6c7a0be0b3]
+2022-01-29 13:58:46.745	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [15] monerod(+0xf69fe) [0x55a3e0e259fe] 
+2022-01-29 13:58:46.745	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	
+2022-01-29 13:58:46.764	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:133	Exception: boost::exception_detail::clone_impl<boost::system::system_error>
+2022-01-29 13:58:46.764	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:134	Unwound call stack:
+2022-01-29 13:58:46.764	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [1]  0x113) [0x55a3e0dcf2d2]:__cxa_throw+0x113) [0x55a3e0dcf2d2]
+2022-01-29 13:58:46.764	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [2] monerod(+0xcab83) [0x55a3e0df9b83] 
+2022-01-29 13:58:46.764	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [3] monerod(+0x1dd643) [0x55a3e0f0c643] 
+2022-01-29 13:58:46.764	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [4] monerod(+0x1e2d08) [0x55a3e0f11d08] 
+2022-01-29 13:58:46.764	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [5] monerod(+0x1e7594) [0x55a3e0f16594] 
+2022-01-29 13:58:46.764	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [6] monerod(+0x1e80b6) [0x55a3e0f170b6] 
+2022-01-29 13:58:46.764	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [7] monerod(+0x1e85af) [0x55a3e0f175af] 
+2022-01-29 13:58:46.764	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [8] monerod(+0x1c1505) [0x55a3e0ef0505] 
+2022-01-29 13:58:46.764	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [9] monerod(+0x114518) [0x55a3e0e43518] 
+2022-01-29 13:58:46.764	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [10] monerod(+0x10a869) [0x55a3e0e39869] 
+2022-01-29 13:58:46.764	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [11] monerod(+0xea068) [0x55a3e0e19068] 
+2022-01-29 13:58:46.764	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [12]  0xf3) [0x7f6c7a0be0b3]:_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f6c7a0be0b3]
+2022-01-29 13:58:46.764	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [13] monerod(+0xf69fe) [0x55a3e0e259fe] 
+2022-01-29 13:58:46.764	    7f6c77a13340	INFO	stacktrace	src/common/stack_trace.cpp:172	
+2022-01-29 13:58:46.765	    7f6c77a13340	ERROR	msgwriter	src/common/scoped_message_writer.h:102	Error: Couldn't connect to daemon: 127.0.0.1:18081
+2022-01-31 14:10:09.792	    7ff43d61f340	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2022-01-31 14:10:09.800	    7ff43d61f340	INFO	global	src/daemon/main.cpp:296	Monero 'Oxygen Orion' (v0.17.0.0-319b831e6)
+2022-01-31 14:10:11.802	    7ff43d61f340	ERROR	msgwriter	src/common/scoped_message_writer.h:102	Error: Daemon did not stop-- rpc_request: 
+2022-01-31 14:10:11.802	    7ff43d61f340	INFO	stacktrace	src/common/stack_trace.cpp:133	Exception: boost::wrapexcept<boost::system::system_error>
+2022-01-31 14:10:11.802	    7ff43d61f340	INFO	stacktrace	src/common/stack_trace.cpp:134	Unwound call stack:
+2022-01-31 14:10:11.802	    7ff43d61f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [1]  0x113) [0x555d535fd2d2]:__cxa_throw+0x113) [0x555d535fd2d2]
+2022-01-31 14:10:11.802	    7ff43d61f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [2] monerod(+0x75dcf) [0x555d535d2dcf] 
+2022-01-31 14:10:11.802	    7ff43d61f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [3] monerod(+0x1325e3) [0x555d5368f5e3] 
+2022-01-31 14:10:11.802	    7ff43d61f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [4] monerod(+0x1f9cba) [0x555d53756cba] 
+2022-01-31 14:10:11.802	    7ff43d61f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [5] monerod(+0x1dd857) [0x555d5373a857] 
+2022-01-31 14:10:11.802	    7ff43d61f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [6] monerod(+0x1c1582) [0x555d5371e582] 
+2022-01-31 14:10:11.802	    7ff43d61f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [7] monerod(+0x114518) [0x555d53671518] 
+2022-01-31 14:10:11.802	    7ff43d61f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [8] monerod(+0x10a869) [0x555d53667869] 
+2022-01-31 14:10:11.802	    7ff43d61f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [9] monerod(+0xea068) [0x555d53647068] 
+2022-01-31 14:10:11.802	    7ff43d61f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [10]  0xf3) [0x7ff43fcca0b3]:_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7ff43fcca0b3]
+2022-01-31 14:10:11.802	    7ff43d61f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [11] monerod(+0xf69fe) [0x555d536539fe] 
+2022-01-31 14:10:11.802	    7ff43d61f340	INFO	stacktrace	src/common/stack_trace.cpp:172	
+2022-02-11 15:03:43.445	    7f1526005340	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2022-02-11 15:03:43.446	    7f1526005340	INFO	global	src/daemon/main.cpp:296	Monero 'Oxygen Orion' (v0.17.0.0-319b831e6)
+2022-02-11 15:03:44.348	    7f1526005340	ERROR	msgwriter	src/common/scoped_message_writer.h:102	Error: Daemon did not stop-- rpc_request: 
+2022-02-11 15:03:44.348	    7f1526005340	INFO	stacktrace	src/common/stack_trace.cpp:133	Exception: boost::wrapexcept<boost::system::system_error>
+2022-02-11 15:03:44.348	    7f1526005340	INFO	stacktrace	src/common/stack_trace.cpp:134	Unwound call stack:
+2022-02-11 15:03:44.348	    7f1526005340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [1]  0x113) [0x557d534ab2d2]:__cxa_throw+0x113) [0x557d534ab2d2]
+2022-02-11 15:03:44.348	    7f1526005340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [2] monerod(+0x75dcf) [0x557d53480dcf] 
+2022-02-11 15:03:44.348	    7f1526005340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [3] monerod(+0x1325e3) [0x557d5353d5e3] 
+2022-02-11 15:03:44.348	    7f1526005340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [4] monerod(+0x1f9cba) [0x557d53604cba] 
+2022-02-11 15:03:44.348	    7f1526005340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [5] monerod(+0x1dd857) [0x557d535e8857] 
+2022-02-11 15:03:44.348	    7f1526005340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [6] monerod(+0x1c1582) [0x557d535cc582] 
+2022-02-11 15:03:44.348	    7f1526005340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [7] monerod(+0x114518) [0x557d5351f518] 
+2022-02-11 15:03:44.348	    7f1526005340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [8] monerod(+0x10a869) [0x557d53515869] 
+2022-02-11 15:03:44.348	    7f1526005340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [9] monerod(+0xea068) [0x557d534f5068] 
+2022-02-11 15:03:44.348	    7f1526005340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [10]  0xf3) [0x7f15286b00b3]:_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f15286b00b3]
+2022-02-11 15:03:44.348	    7f1526005340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [11] monerod(+0xf69fe) [0x557d535019fe] 
+2022-02-11 15:03:44.348	    7f1526005340	INFO	stacktrace	src/common/stack_trace.cpp:172	
+2022-02-11 18:59:44.961	    7effe3da4340	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2022-02-11 18:59:44.964	    7effe3da4340	INFO	global	src/daemon/main.cpp:296	Monero 'Oxygen Orion' (v0.17.0.0-319b831e6)
+2022-02-13 12:12:10.346	    7f30703ab340	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2022-02-13 12:12:10.346	    7f30703ab340	INFO	global	src/daemon/main.cpp:296	Monero 'Oxygen Orion' (v0.17.0.0-319b831e6)
+2022-02-13 12:12:17.494	    7f05ed792340	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2022-02-13 12:12:17.495	    7f05ed792340	INFO	global	src/daemon/main.cpp:296	Monero 'Oxygen Orion' (v0.17.0.0-319b831e6)
+2022-02-13 12:12:32.797	    7f48b61c9340	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2022-02-13 12:12:32.797	    7f48b61c9340	INFO	global	src/daemon/main.cpp:296	Monero 'Oxygen Orion' (v0.17.0.0-319b831e6)
+2022-02-13 12:12:33.859	    7f48b61c9340	INFO	msgwriter	src/common/scoped_message_writer.h:102	Stop signal sent
+2022-02-13 12:12:44.146	    7fa90a39f340	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2022-02-13 12:12:44.146	    7fa90a39f340	INFO	global	src/daemon/main.cpp:296	Monero 'Oxygen Orion' (v0.17.0.0-319b831e6)
+2022-02-13 12:12:45.204	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:133	Exception: boost::exception_detail::clone_impl<boost::system::system_error>
+2022-02-13 12:12:45.204	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:134	Unwound call stack:
+2022-02-13 12:12:45.207	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [1]  0x113) [0x555de1c742d2]:__cxa_throw+0x113) [0x555de1c742d2]
+2022-02-13 12:12:45.207	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [2] monerod(+0xcac7b) [0x555de1c9ec7b] 
+2022-02-13 12:12:45.207	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [3] monerod(+0xdd4d1) [0x555de1cb14d1] 
+2022-02-13 12:12:45.207	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [4] monerod(+0x6e1407) [0x555de22b5407] 
+2022-02-13 12:12:45.207	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [5] monerod(+0x12d995) [0x555de1d01995] 
+2022-02-13 12:12:45.207	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [6] monerod(+0x12e038) [0x555de1d02038] 
+2022-02-13 12:12:45.207	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [7] monerod(+0x1e746e) [0x555de1dbb46e] 
+2022-02-13 12:12:45.207	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [8] monerod(+0x1e80b6) [0x555de1dbc0b6] 
+2022-02-13 12:12:45.207	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [9] monerod(+0x1e85af) [0x555de1dbc5af] 
+2022-02-13 12:12:45.207	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [10] monerod(+0x1c1505) [0x555de1d95505] 
+2022-02-13 12:12:45.207	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [11] monerod(+0x114518) [0x555de1ce8518] 
+2022-02-13 12:12:45.207	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [12] monerod(+0x10a869) [0x555de1cde869] 
+2022-02-13 12:12:45.207	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [13] monerod(+0xea068) [0x555de1cbe068] 
+2022-02-13 12:12:45.207	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [14]  0xf3) [0x7fa90ca4a0b3]:_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fa90ca4a0b3]
+2022-02-13 12:12:45.207	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [15] monerod(+0xf69fe) [0x555de1cca9fe] 
+2022-02-13 12:12:45.207	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	
+2022-02-13 12:12:45.208	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:133	Exception: boost::exception_detail::clone_impl<boost::system::system_error>
+2022-02-13 12:12:45.208	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:134	Unwound call stack:
+2022-02-13 12:12:45.208	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [1]  0x113) [0x555de1c742d2]:__cxa_throw+0x113) [0x555de1c742d2]
+2022-02-13 12:12:45.208	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [2] monerod(+0xcab83) [0x555de1c9eb83] 
+2022-02-13 12:12:45.208	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [3] monerod(+0x1dd643) [0x555de1db1643] 
+2022-02-13 12:12:45.208	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [4] monerod(+0x1e2d08) [0x555de1db6d08] 
+2022-02-13 12:12:45.208	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [5] monerod(+0x1e7594) [0x555de1dbb594] 
+2022-02-13 12:12:45.208	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [6] monerod(+0x1e80b6) [0x555de1dbc0b6] 
+2022-02-13 12:12:45.208	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [7] monerod(+0x1e85af) [0x555de1dbc5af] 
+2022-02-13 12:12:45.208	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [8] monerod(+0x1c1505) [0x555de1d95505] 
+2022-02-13 12:12:45.208	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [9] monerod(+0x114518) [0x555de1ce8518] 
+2022-02-13 12:12:45.208	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [10] monerod(+0x10a869) [0x555de1cde869] 
+2022-02-13 12:12:45.208	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [11] monerod(+0xea068) [0x555de1cbe068] 
+2022-02-13 12:12:45.208	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [12]  0xf3) [0x7fa90ca4a0b3]:_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fa90ca4a0b3]
+2022-02-13 12:12:45.208	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	    [13] monerod(+0xf69fe) [0x555de1cca9fe] 
+2022-02-13 12:12:45.208	    7fa90a39f340	INFO	stacktrace	src/common/stack_trace.cpp:172	
+2022-02-13 12:12:45.209	    7fa90a39f340	ERROR	msgwriter	src/common/scoped_message_writer.h:102	Error: Couldn't connect to daemon: 127.0.0.1:18081
