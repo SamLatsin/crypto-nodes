@@ -122,6 +122,7 @@ function getFeeBTC($app) {
 	$amount = $app['request']->get('amount',null,null,true);
 	$address = $app['request']->get('address',null,null,true);
 	$name = $app['request']->get('name',null,null,true);
+	$fee = $app['request']->get('fee',null,null,true);
 
 	$wallet = $app['Wallet']->getWalletByTickerAndName("BTC", $name);
 	if ($wallet) {
@@ -143,7 +144,13 @@ function getFeeBTC($app) {
 		];
 		$hex1 = sendRPC("createrawtransaction", $args, "localhost:8332/");
 		$hex1 = json_decode($hex1, true);
-		$result = sendRPC("fundrawtransaction", [trim($hex1['result'])], "localhost:8332/wallet/".$name);
+		if ($fee) {
+			$fee = $fee / 100000; // convert from BTC/kB to satoshis/byte
+			$result = sendRPC("fundrawtransaction", [trim($hex1['result']), ["feeRate"=>$fee]], "localhost:8332/wallet/".$name);
+		}
+		else {
+			$result = sendRPC("fundrawtransaction", [trim($hex1['result'])], "localhost:8332/wallet/".$name);
+		}
 		$result = json_decode($result, true);
 		// $unload = sendRPC("unloadwallet", [$wallet['name']], "localhost:8332/"); //test
 		if ($result['error']) {
