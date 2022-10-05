@@ -45,6 +45,7 @@ Tron special feature:
 * [MySQL](https://www.mysql.com)
 * [Bitcoind](https://github.com/bitcoin/bitcoin.git)
 * [Geth](https://github.com/ethereum/go-ethereum.git)
+* [Prysm](https://github.com/prysmaticlabs/prysm)
 * [Zcashd](https://github.com/zcash/zcash.git)
 * [Monerod](https://github.com/monero-project/monero.git)
 * [Dashd](https://github.com/dashpay/dash.git)
@@ -95,14 +96,15 @@ After installing all nodes put corresponding configs to them from `crypto-nodes/
 ```
 /root/
 ├── disk1
-│   └── xmr
+│   └── xmr (147GB)
 ├── disk2
-│   ├── dash
-│   ├── tron
-│   └── zec
-└── disk3
-    ├── btc
-    └── eth
+│   ├── dash (146GB)
+│   ├── tron (using api)
+│   └── zec (80GB)
+├── disk3
+│   └── eth (consensus - 114GB, blockhain - 1.3TB)
+└── disk4
+    └── btc (463GB)
 ```
 Edit file `/var/www/crypto-rest-api/app/app.php` and put your Database credentials.
 
