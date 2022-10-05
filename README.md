@@ -94,12 +94,14 @@ Add all lines from `crypto-nodes/configs/crontab.txt` to your crontab.
 
 After installing all nodes put corresponding configs to them from `crypto-nodes/configs/nodes configs/`. Your file structure should be like this:
 ```
+File structure with blockchain sizes at 10 October 2022
+
 /root/
 ├── disk1
 │   └── xmr (147GB)
 ├── disk2
 │   ├── dash (146GB)
-│   ├── tron (using api)
+│   ├── tron (using API)
 │   └── zec (80GB)
 ├── disk3
 │   └── eth (consensus - 114GB, blockhain - 1.3TB)
