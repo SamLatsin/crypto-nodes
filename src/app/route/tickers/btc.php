@@ -732,7 +732,7 @@ function removeWalletBTC($app) {
 	$debug0 = $app['Wallet']->deleteWalletByName($name);
 	$debug1 = $app['RecoverQueue']->deleteItemByName($name);
 	$debug2 = sendRPC("unloadwallet", [$name], "localhost:8332/");
-	$debug3 = shell_exec("sudo rm -rf /root/disk2/btc/data/".$name);
+	$debug3 = shell_exec("sudo rm -rf /root/disk4/btc/data/".$name);
 	header('Content-Type: application/json; charset=utf-8');
 	$fields = [
 		"status"=>"done",

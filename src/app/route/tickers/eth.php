@@ -287,8 +287,10 @@ function recoverWalletETH($app) {
 function checkProcessETH($app) {
 	exec("pgrep geth", $pids);
 	if(empty($pids)) {
-		exec("nohup geth --http --http.api personal,eth,net,web3 --config \"/root/.etherium/config.toml\" --cache 2048 &", $debug);
-		var_dump($debug);
+		exec("nohup geth --http --http.api personal,eth,net,web3 --authrpc.jwtsecret /root/disk3/eth/ethereum/consensus/prysm/jwt.hex  --config \"/root/.etherium/config.toml\" --cache 2048 &", $debug1);
+		exec("nohup /root/disk3/eth/ethereum/consensus/prysm/prysm.sh beacon-chain --execution-endpoint=http://localhost:8551 --jwt-secret=/root/disk3/eth/ethereum/consensus/prysm/jwt.hex --datadir=\"/root/disk3/eth/ethereum/data\" --accept-terms-of-use &", $debug2);
+		var_dump($debug1);
+		var_dump($debug2);
 		return "running process";
 	}
 	return "process already runned";
